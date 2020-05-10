@@ -1,0 +1,51 @@
+.swiper-container {
+  width: 95%;
+  height: 60vw;
+  max-height: 500px;
+}
+
+.swiper-slide {
+  height:90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.poster-container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.movie-poster {
+  width: 100%;
+}
+
+.movie-title {
+  height:40px;
+  font-family: 'Lato';
+  overflow: hidden;
+  margin: 0 5px 0 5px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.movie-year {
+  font-family: 'Lato';
+  margin: 0 5px 0 5px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 30px;
+}
+
+.swiper-button-next {
+  right: -5px;
+}
+
+.swiper-button-prev {
+  left: -5px;
+}

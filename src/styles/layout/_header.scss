@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    font-family: 'Lato';
+    background: radial-gradient(at top, #FEFFFF, rgb(125, 218, 213));
+    font-size: 16px;
+    @media (max-width: 650px) {
+      font-size: 12px;
+    }
+}
+
+.header-main-title {
+    margin: 0 auto;
+    text-align: center;
+}
+

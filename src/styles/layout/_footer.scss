@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+  font-family: 'Lato';
+  background: radial-gradient(at top, #FEFFFF, rgb(125, 218, 213));
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.my-link {
+  text-decoration: none;
+  font-family: 'Lato';
+  color: black;
+  font-size: inherit;
+}
+
+.footer-title {
+  font-size: inherit;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>webpack starterkit</title>
+  <script src="https://kit.fontawesome.com/df540cb004.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../node_modules/swiper/css/swiper.min.css">
+</head>
+
+<body>
+  <header class='header'>
+    <h1 class='header-main-title'>MovieSearch</h1>
+  </header>
+
+  <form class='movie-search'>
+    <span class='movie-search__search-icon'><i class="fas fa-search"></i></span>
+    <input type='text' class='movie-search__input'
+    id='getMovieInput' placeholder='Search movie' autofocus autocomplete='off'>
+    <div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    <span class='movie-search__delete-icon'><i class="fas fa-times"></i></span>
+    <input class = 'submit-btn' type="submit" value="Search">
+  </form>
+
+
+<div class="swiper-container">
+
+  <div class="swiper-wrapper">
+
+  </div>
+
+  <div class="swiper-pagination"></div>
+
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <div class="swiper-scrollbar"></div>
+</div>
+
+<footer class='footer'>
+  <h2 class='footer-title'>RS School 2020q1</h2>
+  <h2 class='footer-title'>
+    <i class="fab fa-github"></i>
+    <a class='my-link' href="https://github.com/lordshtein">My github)</a>
+  </h2>
+</footer>
+
+
+<script src="../node_modules/swiper/js/swiper.min.js"></script>
+</body>
+
+</html>
